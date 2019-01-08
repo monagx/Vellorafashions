@@ -1,0 +1,116 @@
+[20-Dec-2018 07:51:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPackage() on null in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php:215
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(109): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->getValidExternalUrl('{{base_url_path...', Object(Magento\Deploy\Package\Package))
+#1 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(80): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->parseCss(Array, 'css/email-inlin...', 'frontend/Magent...', '@import url("{{...', Object(Magento\Deploy\Package\Package))
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/DeployPackage.php(146): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->process(Object(Magento\Deploy\Package\Package), Array)
+#3 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/Depl in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php on line 215
+[20-Dec-2018 07:52:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPackage() on null in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php:215
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(109): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->getValidExternalUrl('{{base_url_path...', Object(Magento\Deploy\Package\Package))
+#1 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(80): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->parseCss(Array, 'css/email-inlin...', 'frontend/Magent...', '@import url("{{...', Object(Magento\Deploy\Package\Package))
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/DeployPackage.php(146): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->process(Object(Magento\Deploy\Package\Package), Array)
+#3 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/Depl in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php on line 215
+[20-Dec-2018 07:53:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPackage() on null in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php:215
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(109): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->getValidExternalUrl('{{base_url_path...', Object(Magento\Deploy\Package\Package))
+#1 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php(80): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->parseCss(Array, 'css/email-inlin...', 'frontend/Magent...', '@import url("{{...', Object(Magento\Deploy\Package\Package))
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/DeployPackage.php(146): Magento\Deploy\Package\Processor\PostProcessor\CssUrls->process(Object(Magento\Deploy\Package\Package), Array)
+#3 /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Service/Depl in /home/vellora/domains/vellora.net/vendor/magento/module-deploy/Package/Processor/PostProcessor/CssUrls.php on line 215
+[25-Dec-2018 10:21:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:21:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:25:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:26:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
+[25-Dec-2018 10:26:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php:27
+Stack trace:
+#0 /home/vellora/domains/vellora.net/vendor/magento/module-catalog/Controller/Adminhtml/Category/Edit.php(105): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Catalog...')
+#1 /home/vellora/domains/vellora.net/vendor/magento/framework/App/Action/Action.php(108): Magento\Catalog\Controller\Adminhtml\Category\Edit->execute()
+#2 /home/vellora/domains/vellora.net/vendor/magento/module-backend/App/AbstractAction.php(231): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 /home/vellora/domains/vellora.net/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Catalog\Controller\Adminhtml\Cate in /home/vellora/domains/vellora.net/vendor/magento/module-backend/Model/View/Result/Page.php on line 27
