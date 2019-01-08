@@ -74,3 +74,6 @@ atlassian*
 
 *.tar.gz
 
+/dev/tests/integration/testsuite/Magento/ImportExport/Controller/Adminhtml/Import/_files/*.zip
+/dev/tests/static/framework/tests/unit/testsuite/Magento/TestFramework/Inspection/*.zip
+/dev/tests/static/framework/tests/unit/testsuite/Magento/TestFramework/Inspection/*.zip
